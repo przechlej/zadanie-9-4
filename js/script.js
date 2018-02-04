@@ -1,8 +1,11 @@
-var drawtree = ["*"];
-var i = 0;
-var star = "";
-while (drawtree[i]) {
-    star += "*"[i] + "<br>";
-    i++;
+function drawTree(height) {
+    for (var i = 0; i < height; i++) {
+        var star = "";
+
+        for (var j = 0; j <= i;
+            j++) {
+            star += "*";
+        }
+        cosole.log(star)
+    }
 }
-console.log(star)
